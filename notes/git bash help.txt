@@ -1,0 +1,5 @@
+ls: list documents
+cd name: go into doc
+mkdir: create doc
+rm -r: delete doc
+clear: clears bash
