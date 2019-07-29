@@ -6,57 +6,56 @@ badDay=['rough','hard','tough','hell of a day','the worst day ever','the worst',
 'kind of a day','rough one','bad old days','rough afternoon','less fortunate day','not good','worse days','very bad ','wrong night','fucking day','motherfucking day',
 'been bad',"it's been bad","really tough",'in a really bad mood','really bad mood','very difficult','not so perfect', 'down day','really rough','very trying','really hard'
 ,'slow day','bad days','very hard','real bad','not a great day','the worst ','worst day ever','not the best','not great','most horrible day','your worst day','one of those days'
-,'very strange',
+,'very strange'
 '''
-wrong 
-unlucky 
-off 
-awful 
-difficult 
-long 
-good 
+wrong
+unlucky
+off
+awful
+difficult
+long
+good
 lousy
 sad
 monday
 stressful
-horrible 
+horrible
 misfortune
-distressing 
+distressing
 junky
-fatiguing 
-rough 
+fatiguing
+rough
 saddest
 full
 miserable
 emotional
 strenuous
-rough  
-not-so-perfect  
-dire  
-heavy  
-complicated  
+rough
+not-so-perfect
+dire
+heavy
+complicated
 negative
-bad 
-shit 
+bad
+shit
 dreadful
-ghastly 
-hideous 
+ghastly
+hideous
 trying
-rotten 
-busy 
-shitty 
+rotten
+busy
+shitty
 evil
 crap
 disheartening
 trashy
 personal
-darkest 
-bad name 
+darkest
 disrepute
 reflects
-badly 
+badly
 negative''']
-if a in goodDay:
+ifa in goodDay:
     print("cool see you later ",name,".")
 if a in badDay:
    print("too bad for you,",name,", my day's been great.")    
