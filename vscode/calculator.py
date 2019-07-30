@@ -26,41 +26,34 @@ print("  2 - multiply")
 print("  3 - divide")
 print("  4 - power")
 print("  5 - factorial")
+print("  6 - square root")
 print("Enter a number to choose an operation: \n")
 op = int(input())
 
 from math import *
 
-
     
-
 
 a = int(input("Enter your first input: "))
-if op==5:
-    res=factorial(a)
-    print(a,"!=",res)
-
-b = int(input("Enter your second input: "))
-
-
-
-if op ==0:
-    print(a,"+",b,"=",a+b)
-elif op ==1:
-    print(a,"-",b,"=",a-b)
-elif op ==2:
-    print(a,"x",b,"=",a*b)
-elif op ==3:
-    print(a,"/",b,"=",a/b)  
-elif op==4:
-    print(a,'to the power of ',b,'is',a**b)
-
-
-
-
+if op<=4:
+    b = int(input("Enter your second input: "))
+    if op ==0:
+        print(a,"+",b,"=",a+b)
+    elif op ==1:
+        print(a,"-",b,"=",a-b)
+    elif op ==2:
+        print(a,"x",b,"=",a*b)
+    elif op ==3:
+        print(a,"/",b,"=",a/b)  
+    elif op==4:
+        print(a,'to the power of ',b,'is',a**b)
 else:
-    print("input is invalid")
-    
+    if op==5:
+        res=factorial(a)
+        print(a,"factorial is" ,res)
+    elif op==6:
+        print('the square root of',a,'is',sqrt(a))
+
 
 
 
