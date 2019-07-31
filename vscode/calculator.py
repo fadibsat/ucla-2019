@@ -53,6 +53,8 @@ else:
         print(a,"factorial is" ,res)
     elif op==6:
         print('the square root of',a,'is',sqrt(a))
+    elif op==7:
+            
 
 
 

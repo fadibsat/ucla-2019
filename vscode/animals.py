@@ -14,6 +14,29 @@
 #   bush 1
 
 s = "bear dog cat bear bear tree bush cat tree bear"
+bear,a,b,c,d,e=0,0,0,0,0,0
+cat=0
+tree=0
+dog=0
+bush=0
 for word in s.split(' '):
-    
-        
+    word=a
+    if a==word :
+        bear+=1
+    elif word!=a:
+        b=word
+        cat+=1
+    elif word!=a and word!=b :
+        c=word
+        tree+=1            
+    elif word!=a and word!=b and word!=c
+        d=word
+        dog+=1
+    elif word!=a and word!=b and word!=c and word!=d :
+        e=word
+        bush+=1 
+print("bear",bear)        
+print("cat",cat)
+print("tree",tree)
+print("dog",dog)
+print("bush",bush)
