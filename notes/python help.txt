@@ -1,0 +1,10 @@
+Python:
+operations (+,-,*,**,/)
+comparators(<,>,<=,>=,==,!=)
+lists([])
+	index([,,][])
+	slice([,,,][:])
+
+str(3)='3'
+int(3.5)=3
+

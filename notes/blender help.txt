@@ -1,0 +1,4 @@
+blender help
+
+setting a color: mat_red.diffuse_color=(0.8,0,0) RED
+we made a booboo
